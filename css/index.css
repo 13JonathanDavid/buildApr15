@@ -134,7 +134,7 @@ html {
 }
 html,
 body {
-  background-color: #64b2f6;
+  background-color: #e3e3e3;
   font-family: 'Open Sans', sans-serif;
   color: #020207;
   width: 100%;
@@ -172,8 +172,8 @@ p {
 .nav-wrapper {
   display: flex;
   flex-direction: column;
-  background-color: #1f72d1;
-  border: solid thin #2592f2;
+  background-color: #0f00b8;
+  border: solid thin #c90000;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -214,9 +214,9 @@ p {
 }
 footer {
   color: #53616f;
-  background: #7fe600;
+  background: #0f00b8;
   padding: 20px 0;
-  border: 1px double #1f72d1;
+  border: 1px double #0f00b8;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -255,7 +255,7 @@ footer {
 }
 .home .home-s3 {
   margin-top: 20px;
-  border-top: 1px solid #1f72d1;
+  border-top: 1px solid #0f00b8;
   padding: 20px 20px;
   display: flex;
   justify-content: center;
@@ -277,7 +277,7 @@ footer {
 .home .home-s3 > div .btn {
   background-color: #020207;
   border: none;
-  color: #0d81e7;
+  color: #b0b0b0;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -288,7 +288,7 @@ footer {
 .home .home-s3 > div .btn:hover {
   background-color: #000000;
   border: none;
-  color: #349af3;
+  color: #cacaca;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
