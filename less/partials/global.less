@@ -8,12 +8,21 @@ html {
 }
 
 html, body {
-  font-family: 'Ubuntu', sans-serif;
+  background-color: @website-bg;
+  font-family: @text-font, @text-font-backup;
   color: @main-font-color;
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+}
+.hideOnSmall {
+		@media @phone {
+		display:none !important; // functionality issue keep !important
+		}
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: @header-font, @header-font-backup;
   color: @header-font-color;
 }
 
@@ -27,7 +36,7 @@ h3 {
 
 p {
   font-size: 1.6rem;
-  line-height: 1.4;
+  line-height: 1.4;   
 }
 
 .container {
